@@ -15,9 +15,9 @@
             <a href="index.html" class="logo">Kaluri Praveen</a>
             <nav>
                 <ul>
-                    <li><a href="#">My work</a></li>
-                    <li><a href="#">My skills</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#my_work">My work</a></li>
+                    <li><a href="#skills">My skills</a></li>
+                    <li><a href="styles/resume.png" download="resume">Download CV</a></li>
                 </ul>
             </nav>
         </header>
@@ -60,19 +60,20 @@
             </g>
           </svg>
     </div>
+    <a href="resume/shiva-kumar-cv1.png" class="m-2 btn btn-light" download="shiva-kumar-cv">Download CV</a>
     <section class="featured">
         <div class="left">
             <div class="inner transition2">
                 <p class="subtitle">Featured Project</p>
                 <a href="#" class="featured-title">Courier Management</a>
-                <p class="freatured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, saepe?</p>
+                <p class="freatured-desc">The main objective of courier management system isprovide the information about where the consignmentreached, final data to reach its destination etc. Systemenables effectively manage all the logistics processes likedelivery of packages, providing updates about the courier.</p>
             </div>
 
         </div>
         <img src="styles/freaturedProject.jpeg" alt="project">
 
     </section>
-    <section class="skills">
+    <section id = "skills"class="skills">
         <div class="skills-container">
             <ul>
                 <li class="transition2">
@@ -83,7 +84,6 @@
                     <p class="featured-desc4 skill-desc">HTML5</p>
                     <p class="featured-desc1 skill-desc">CSS</p>
                     <p class="featured-desc3 skill-desc">JavaScript</p>
-                    <p class="featured-desc5 skill-desc">JQuery</p>
                     
                 </li>
             </ul>
@@ -113,18 +113,8 @@
         
         </div>
     </section>
-    <section class="portfolio">
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">kiran App</p>
-
-                    <p class="featured-title">kiran.com</p>
-                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint, molestias qui nihil accusamus praesentium vel tenetur quisquam quas rem.</p>
-                </div>
-            </div>
-            <a href="#"><img src="" alt="Fretastic"></a>
-        </div>
+    <section  id = "my_work"class="portfolio">
+        
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
                 <div class="inner">
@@ -135,6 +125,29 @@
                 </div>
             </div>
             <a href="#"><img src="styles/dashboard.png" alt="Fretastic"></a>
+        </div>
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <a href="https://github.com/Kaluripraveen/Hand_Sign_Detection.git"><p class="subtitle">Cricket Data-Analytics Project</p></a>
+
+                    <p class="featured-title">Python Project</p>
+                    <p class="featured-desc">
+                        This project is developed using python. I create a hand sign detector using American Sign Language as an example,This project will include both detection and classification using our own data to train the model.</p>
+                </div>
+            </div>
+            <a href="#"><img src="styles/123.png" alt="Fretastic"></a>
+        </div>
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <a href="https://github.com/Kaluripraveen/kiran_app.git"><p class="subtitle">Demo App</p></a>
+
+                    <p class="featured-title">App Development-project</p>
+                    <p class="featured-desc">App development project developed using flutter(front-end) & Django(back-end) functionality of project is provide authentication to user, for authentication i used JWT(Json wen tokens) to authenticate user & user provided details are stored in database</p>
+                </div>
+            </div>
+           
         </div>
         
     </section>

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@500&family=Satisfy&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -131,6 +135,7 @@ section img {
 .skills-container ul li {
   background: white;
   padding: 1em;
+  margin-right: 10px;
   width: 300px;
   border-radius: 1em;
   margin-bottom: 1em;
